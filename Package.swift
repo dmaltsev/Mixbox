@@ -35,7 +35,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/jpsim/SourceKitten.git", .exact("0.30.1")),
-        .package(url: "https://github.com/kylef/PathKit.git", .branch("master")),
+        .package(url: "https://github.com/kylef/PathKit.git", .exact("1.0.1")),
         .package(url: "https://github.com/avito-tech/Sourcery.git", .revision("0564feccdc8fade6c68376bdf7f8dab9b79863fe")),
     ],
     targets: [
